@@ -7,3 +7,15 @@ body{
 p{
     text-align: center;
 }
+
+input, select {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #88f;
+}
+
+#survey-form {
+    text-align: center;
+    display: block;
+}

@@ -10,6 +10,29 @@
 
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="form">
+      <form action="#" id="survey-form">
+        <div>
+          <label for="name" id="name-label">Name: </label>
+          <input type="text" id="name" required placeholder="Enter your name"> 
+        </div>
+        <div>
+          <label for="email" id="email-label">Email: </label>
+          <input type="email" id="email" required placeholder="Enter your email">
+        </div>
+        <div>
+          <label for="number" id="number-label">Number: </label>
+          <input type="number" id="number" min="10" max="15" placeholder="Enter your phone number">
+        </div>
+        <div>
+          <label for="dropdown">Country: </label>
+        <select id="dropdown">
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Nigeria">Nigeria</option>
+        </select>
+        </div>
+      </form>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
